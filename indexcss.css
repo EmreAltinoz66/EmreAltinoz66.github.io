@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding-top: 60px; /* fixed navbar için ŞART */
+    background-color: #000;
+}
+
+.ustcubuk {
+    background-color: #241f1f;
+    min-height: 60px;
+    padding: 0 16px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.aramacubuk{
+    background-color: #1b1b1b;
+    color: #f2f2f2;
+    border: none;
+    width: 600px;
+    border-radius: 100px;
+}
+
+.aramacubuk::placeholder {
+    color: #ffffff;
+}
+
+.guvenlik-btn {
+    background-color: #dd8707;
+    color: #1f1f1f;
+    border-radius: 999px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn{
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
